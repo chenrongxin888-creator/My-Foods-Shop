@@ -201,7 +201,9 @@
                         <h3 class="font-bold text-lg">${item.name}</h3>
                         <span class="text-orange-600 font-black text-lg">RM ${item.price}</span>
                     </div>
-                    <p class="text-xs text-gray-400 mb-4 h-8 overflow-hidden line-clamp-2">${item.description || ''}</p>
+                    <p class="text-sm text-gray-500 mb-4 h-8 overflow-hidden line-clamp-2 leading-5">
+  ${item.description || ''}
+</p>
                     <div data-food="${item.name}" data-price="${item.price}"></div>
                 </div>
             </div>
